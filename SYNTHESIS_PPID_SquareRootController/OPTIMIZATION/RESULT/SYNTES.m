@@ -1,0 +1,12 @@
+s=tf('s');
+G=0.92/s;
+kP=1;kI=-0.1;kD=5;
+G1=feedback(G,kD);
+G2=1+kI/kP/s;
+G3=1/s;
+G4=kP*G2*G3;
+Gsys=feedback(G4,1);
+rlocus(G4);
+margin(G4);
+grid on; grid minor;
+%step(Gsys,1);

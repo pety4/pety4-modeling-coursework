@@ -1,0 +1,4 @@
+﻿cl : командная строка  warning D9035: использование параметра "Gm" нежелательно, он будет удален в следующих выпусках
+  KRITERIY.cpp
+D:\Учёба\МАИ\4 курс\Моделирование, идентификация и оптимизация\Курсовая работа\SYNTHESIS_PPID_SquareRootController\OPTIMIZATION\KRITERIY.cpp(7,12): warning C4101: DT: неиспользованная локальная переменная
+  OPTIMIZATION.vcxproj -> D:\Учёба\МАИ\4 курс\Моделирование, идентификация и оптимизация\Курсовая работа\SYNTHESIS_PPID_SquareRootController\Debug\OPTIMIZATION.exe
